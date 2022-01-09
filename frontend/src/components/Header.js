@@ -6,11 +6,11 @@ const navbarStyle = {
   backgroundColor: '#eeeeee',
 };
 
-const Header = (props) => {
+const Header = ({ title }) => {
   return (
     <Navbar style={navbarStyle} variant="light">
       <Container>
-        <Logo style={{ maxWidth: '14rem', maxHeight: '2rem' }} />
+        <Logo alt={title} style={{ maxWidth: '14rem', maxHeight: '2rem' }} />
       </Container>
     </Navbar>
   );
