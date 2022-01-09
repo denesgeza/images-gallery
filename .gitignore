@@ -8,3 +8,4 @@
 # cache
 .idea
 .current.status
+__pycache__
