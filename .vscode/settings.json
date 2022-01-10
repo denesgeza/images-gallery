@@ -9,7 +9,7 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true 
     },
-    "python.pythonPath": "api/.venv/bin/python3",
+    "python.pythonDefaultInterpreter": "api/.venv/bin/python3",
     "python.linting.pycodestyleEnabled": true,
     "python.linting.pycodestyleArgs": [
         "--max-line-length=88"
